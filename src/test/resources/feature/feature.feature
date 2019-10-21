@@ -3,7 +3,7 @@ Feature: Way2sms Login functionality
   Scenario: Login
   
 	Given launch site
-	When enter mobile no as 76874864149
+	When enter mobile no
 	And enter password
 	And click on login button
 	And close site
