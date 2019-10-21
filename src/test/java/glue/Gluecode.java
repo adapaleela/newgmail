@@ -42,7 +42,7 @@ public class Gluecode
 	@Given("^launch site$")
 	public void launch_site()
 	{
-		System.setProperty("chrome.driver","chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.get(p.getProperty("url"));
 		wait=new WebDriverWait(driver,20);
